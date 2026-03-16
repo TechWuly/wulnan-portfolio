@@ -19,8 +19,24 @@ const portfolioData = {
   },
 
   projects: [
+    
     {
       id: 1,
+      title: "Asylum Data Visualization Platform",
+      description: "Build a data-driven application, integrating external APIs and secure Authentication.",
+      technologies: ["React", "Next.js", "TypeScript", "Auth0"],
+      features: [
+        "Data visualization",
+        "External API integration",
+        "Auth0 authentication",
+        "Responsive design"
+      ],
+      type: "Full Stack",
+      liveLink: "https://asylum-hrf-fe-starter-six.vercel.app/"
+    },
+
+    {
+      id: 2,
       title: "User Onboarding Platform",
       description: "Built a platform that allows user input validation and submitting forms in React. Wrote code that validates input from the user and submits it to an actual registration endpoint.",
       technologies: ["React.js", "Yup", "Node.js"],
@@ -32,7 +48,7 @@ const portfolioData = {
       type: "Full Stack"
     },
     {
-      id: 2,
+      id: 3,
       title: "Cereal API Application",
       description: "Built a JWT-secured RESTful API for cereal data. Implemented user login system with protected endpoints.",
       technologies: ["React.js", "Node.js", "JWT Auth"],
@@ -45,7 +61,7 @@ const portfolioData = {
       type: "Full Stack"
     },
     {
-      id: 3,
+      id: 4,
       title: "Article Management System",
       description: "Developed a secure article management system with full CRUD operations and comprehensive testing.",
       technologies: ["React.js", "Node.js", "JWT Auth", "Testing"],
@@ -58,19 +74,6 @@ const portfolioData = {
       ],
       type: "Full Stack"
     },
-    {
-      id: 4,
-      title: "Asylum Data Visualization Platform",
-      description: "Build a data-driven application, integrating external APIs and secure Authentication.",
-      technologies: ["React", "Next.js", "TypeScript", "Auth0"],
-      features: [
-        "Data visualization",
-        "External API integration",
-        "Auth0 authentication",
-        "Responsive design"
-      ],
-      type: "Full Stack"
-    }
   ],
 
   experience: [

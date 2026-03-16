@@ -5,7 +5,7 @@ import portfolioData from '../../data/portfolioData';
 
 const CertificateSection = styled.section`
   padding: 4rem 2rem;
-  background: #f8f9fa;
+  background: #E6E6FA;
 `;
 
 const CertificateContainer = styled.div`

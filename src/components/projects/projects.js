@@ -213,16 +213,18 @@ const Projects = () => {
                     <FeatureItem key={index}>{feature}</FeatureItem>
                   ))}
                 </FeaturesList>
-                <ProjectLinks>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-               <FaGithub /> Code
-            </a>
-                   {project.liveLink && (
-           <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
-                <FaExternalLinkAlt /> Live Demo
-           </a>
-               )}
-              </ProjectLinks>
+               <ProjectLinks>
+  {project.githubLink && (
+    <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+      <FaGithub /> Code
+    </a>
+  )}
+  {project.liveLink && (
+    <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
+      <FaExternalLinkAlt /> Live Demo
+    </a>
+  )}
+</ProjectLinks>
               </ProjectContent>
             </ProjectCard>
           ))}

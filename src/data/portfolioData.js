@@ -5,8 +5,8 @@ const portfolioData = {
     title: "Full Stack Web Developer | Software Engineer",
     location: "Abuja, Nigeria",
     email: "wulnanshadrach268@gmail.com",
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername",
+    github: "https://github.com/TechWuly",
+    linkedin: "https://www.linkedin.com/in/wulnanshadrach",
     availability: "Open to Global Remote Roles"
   },
   
@@ -22,46 +22,23 @@ const portfolioData = {
     
     {
       id: 1,
-      title: "Asylum Data Visualization Platform",
-      description: "Build a data-driven application, integrating external APIs and secure Authentication.",
-      technologies: ["React", "Next.js", "TypeScript", "Auth0"],
-      features: [
-        "Data visualization",
-        "External API integration",
-        "Auth0 authentication",
-        "Responsive design"
-      ],
-      type: "Full Stack",
-      liveLink: "https://asylum-hrf-fe-starter-six.vercel.app/"
+title: "Asylum Data Visualization Platform",
+description: "Built a data-driven application that visualizes USCIS asylum case decisions, integrating external APIs and secure authentication.",
+technologies: ["React", "Auth0", "Axios", "Tailwind CSS"],
+features: [
+  "Data visualization with interactive charts",
+  "External API integration (/fiscalSummary and /citizenshipSummary endpoints)",
+  "Auth0 authentication with protected routes",
+  "Responsive design for all devices",
+  "CSV data export functionality"
+],
+type: "Full Stack",
+githubLink: "https://github.com/TechWuly/asylum-hrf-fe-starter",
+liveLink: "https://asylum-hrf-fe-starter-six.vercel.app/"
     },
 
     {
       id: 2,
-      title: "User Onboarding Platform",
-      description: "Built a platform that allows user input validation and submitting forms in React. Wrote code that validates input from the user and submits it to an actual registration endpoint.",
-      technologies: ["React.js", "Yup", "Node.js"],
-      features: [
-        "Form validation with Yup",
-        "Registration endpoint integration",
-        "Real-time input validation"
-      ],
-      type: "Full Stack"
-    },
-    {
-      id: 3,
-      title: "Cereal API Application",
-      description: "Built a JWT-secured RESTful API for cereal data. Implemented user login system with protected endpoints.",
-      technologies: ["React.js", "Node.js", "JWT Auth"],
-      features: [
-        "JWT authentication flow",
-        "Protected GET /cereals endpoint",
-        "Test credentials: username 'tom' or 'liz'",
-        "Interactive frontend components"
-      ],
-      type: "Full Stack"
-    },
-    {
-      id: 4,
       title: "Article Management System",
       description: "Developed a secure article management system with full CRUD operations and comprehensive testing.",
       technologies: ["React.js", "Node.js", "JWT Auth", "Testing"],
@@ -72,8 +49,60 @@ const portfolioData = {
         "Protected API endpoints",
         "Component testing with Spinner utility"
       ],
-      type: "Full Stack"
+      type: "Full Stack",
+      githubLink:"https://github.com/TechWuly/web-sprint-challenge-advanced-web-applications",
+      liveLink:""
     },
+
+    {
+  id: 3,
+  title: "NASA APOD Explorer",
+  description: "Built a React application that consumes the NASA API to fetch and display the Astronomy Picture of the Day with dynamic content handling.",
+  technologies: ["React.js", "Axios", "NASA API", "Styled Components"],
+  features: [
+    "API data fetching with loading states",
+    "Dynamic content rendering (photos/videos)",
+    "Custom styled components",
+    "Error handling for API limits",
+    "Responsive component architecture"
+  ],
+  type: "Frontend",
+  githubLink: "https://github.com/TechWuly/W_S6M3_Project.git",
+  liveLink:""
+},
+
+    {
+      id: 4,
+      title: "User Onboarding Platform",
+      description: "Built a platform that allows user input validation and submitting forms in React. Wrote code that validates input from the user and submits it to an actual registration endpoint.",
+      technologies: ["React.js", "Yup", "Node.js"],
+      features: [
+        "Form validation with Yup",
+        "Registration endpoint integration",
+        "Real-time input validation"
+      ],
+      type: "Full Stack",
+      githubLink:"https://github.com/TechWuly/User-Onboarding",
+      liveLink:""
+    },
+
+    
+    {
+      id: 5,
+      title: "Cereal API Application",
+      description: "Built a JWT-secured RESTful API for cereal data. Implemented user login system with protected endpoints.",
+      technologies: ["React.js", "Node.js", "JWT Auth"],
+      features: [
+        "JWT authentication flow",
+        "Protected GET /cereals endpoint",
+        "Test credentials: username 'tom' or 'liz'",
+        "Interactive frontend components"
+      ],
+      type: "Full Stack",
+      githubLink:"https://github.com/TechWuly/w_s11_frontend_auth_gp",
+      liveLink:""
+    },
+    
   ],
 
   experience: [

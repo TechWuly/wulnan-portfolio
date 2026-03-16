@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import styled from 'styled-components';
-import Navbar from './components/Layout/Navbar';
-import Footer from './components/Layout/Footer';
+import Navbar from './components/Layout/Navbar.js';
+import Footer from './components/Layout/Footer.js';
 import Hero from './components/Home/Hero.js';
 import Skills from './components/Home/Skills.js';
-import Projects from './components/Projects/Projects';
-import Experience from './components/Experience/Experience';
-import Certificate from './components/Certificate/Certificate';
+import Projects from './components/Projects/Projects.js';
+import Experience from './components/Experience/Experience.js';
+import Certificate from './components/Certificate/Certificate.js';
 
 const AppContainer = styled.div`
   min-height: 100vh;
